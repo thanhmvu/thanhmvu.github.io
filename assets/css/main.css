@@ -2107,8 +2107,8 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		/*color: #468EC9;*/
-		color: #468EC9 !important;
+		color: #468EC9;
+		/*color: #468EC9 !important;*/
 		text-decoration: none;
 	}
 
@@ -2830,11 +2830,13 @@
 					}
 
 						ul.pagination li > .page.active:hover {
-							background-color: #f67878;
+							/*background-color: #f67878;*/ /*red*/
+							background-color: #3871a0; /*blue*/
 						}
 
 						ul.pagination li > .page.active:active {
-							background-color: #f45c5c;
+							/*background-color: #f45c5c;*/ /*red*/
+							background-color: #295275; /*blue*/
 						}
 
 				ul.pagination li:first-child {
@@ -3044,7 +3046,8 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f67878;
+				/*background-color: #f67878;*/ /*red*/
+				background-color: #3871a0; /*blue*/
 			}
 
 			input[type="submit"].special:active,
@@ -3052,7 +3055,8 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #f45c5c;
+				/*background-color: #f45c5c;*/ /*red*/
+				background-color: #295275; /*blue*/
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
