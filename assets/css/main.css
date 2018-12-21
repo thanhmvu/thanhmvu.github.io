@@ -3494,7 +3494,7 @@
 			flex-shrink: 1;
 			margin: 0 0 6em 6em;
 			position: relative;
-			width: calc(33.33333% - 6em);
+			width: calc(70% - 6em);
 		}
 
 			.t-posts t-article-text:before {
@@ -3673,7 +3673,7 @@
 			flex-shrink: 1;
 			margin: 0 0 6em 6em;
 			position: relative;
-			width: calc(33.33333% - 6em);
+			width: calc(30% - 6em);
 		}
 
 			.t-posts t-article-image:before {
