@@ -3560,7 +3560,7 @@
 		@media screen and (max-width: 1680px) {
 
 			.t-posts t-article-text {
-				width: calc(70% - 6em);
+				width: calc(75% - 6em);
 			}
 
 			.t-posts t-article-text .t-research-img {
@@ -3739,7 +3739,7 @@
 		@media screen and (max-width: 1680px) {
 
 			.t-posts t-article-image {
-				width: calc(30% - 6em);
+				width: calc(25% - 6em);
 			}
 
 			.t-posts t-article-image .t-research-img {
