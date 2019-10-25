@@ -3492,7 +3492,8 @@
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			margin: 0 0 6em 6em;
+			/*margin: 0 0 6em 6em;*/
+			margin: 0 0 6em 3em; /*thanh*/
 			position: relative;
 			width: calc(70% - 6em);
 		}
@@ -3560,7 +3561,8 @@
 		@media screen and (max-width: 1680px) {
 
 			.t-posts t-article-text {
-				width: calc(75% - 6em);
+				/*width: calc(75% - 6em);*/
+				width: calc(65% - 3em); /*thanh*/
 			}
 
 			.t-posts t-article-text .t-research-img {
@@ -3606,6 +3608,7 @@
 			.t-posts {
 				margin: 0 0 2em -4.5em;
 				width: calc(100% + 4.5em);
+				padding-left: 0;
 			}
 
 				.t-posts t-article-text {
@@ -3739,7 +3742,8 @@
 		@media screen and (max-width: 1680px) {
 
 			.t-posts t-article-image {
-				width: calc(25% - 6em);
+				/*width: calc(25% - 6em);*/
+				width: calc(35% - 6em); /*thanh*/
 			}
 
 			.t-posts t-article-image .t-research-img {
@@ -3896,7 +3900,8 @@
 		@media screen and (max-width: 1280px) {
 
 			#main > .inner {
-				padding: 0 4em 0.1em 4em ;
+				/*padding: 0 4em 0.1em 4em ;*/
+				padding: 0 13% 0.1em 13% ; /*thanh*/
 			}
 
 				#main > .inner > section {
@@ -4264,8 +4269,10 @@
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			display: block;
-			margin: 0 0 2em 4em;
-			width: 30%;
+			/*margin: 0 0 2em 4em;*/
+			/*width: 30%;*/
+			margin: 0 0 6em 4em; /*thanh*/
+			width: 33%; /*thanh*/
 		}
 
 			#banner .image img {
