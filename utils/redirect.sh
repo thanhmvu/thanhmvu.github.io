@@ -1,4 +1,9 @@
 #!/bin/bash
+if [ $# != 2 ]; then
+  echo "ERROR: found $# arguments"
+  echo "Correct Usage: $0 [output-file] [dst-url]"
+  exit
+fi
 
 ## Make executable: chmod +x filename.sh
 ## Execute: ./filename.sh
