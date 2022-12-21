@@ -4271,8 +4271,8 @@
 			display: block;
 			/*margin: 0 0 2em 4em;*/
 			/*width: 30%;*/
-			margin: 0 0 6em 3em; /*thanh*/
-			width: 33%; /*thanh*/
+			margin: 3em 0 6em 3em; /*thanh*/
+			width: 29%; /*thanh*/
 		}
 
 			#banner .image img {
